@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <title>CS143 DataBase Query System</title>
+    
+      <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    table {
+      border: 1px solid #ced4da;
+      width: 100%;
+      border-collapse: collapse;
+      padding: 10px 10px 10px 10px;
+    }
+
+    th {
+      font-family: "Playfair Display", serif;
+      background-color: #cda45e;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    td {
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {background-color: #f5f5f5;}
+  </style>
+</head>
+
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.php">CS143 DataBase Query System</a></h1>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.php">HOME</a></li>
+          <li class="active"><a href="Actor.php?id=52794">ACTOR INFO</a></li>
+          <li class="active"><a href="Movie.php?id=2632">MOVIE INFO</a></li>
+          <li class="active"><a href="search.php">SEARCH</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+</header><!-- End Header -->
+
+<body>
+    <section id="search" class="search section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Information</h2>
+          <p>Movie Information</p>
+        </div>
+        <?php 
+        $servername = "localhost";
+        $username = "cs143";
+        $password = "";
+        $dbname = "cs143";
+
+        // Create connection
+        $db = new mysqli($servername, $username, $password, $dbname);
+        if ($db->connect_errno > 0) { 
+            die('Unable to connect to database [' . $db->connect_error . ']'); 
+        }
+
+        if (isset($_GET["id"])) {
+          // Get Movie Information
+          //$condition = 'M.id='.$_GET['id']." AND G.mid=M.id AND MD.mid=M.id AND D.id=MD.did;";
+          //$query = "SELECT * FROM (Movie M, MovieGenre G, MovieDirector MD, Director D) WHERE ".$condition;
+
+          $condition = 'id='.$_GET['id'].";";
+          $query = "SELECT * FROM Movie WHERE ".$condition;
+          echo "<br>";
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          if ($rs->num_rows > 0) {
+            echo "
+            <br>
+            <h3>Movie Information is:</h3>";
+
+            while ($row = $rs->fetch_assoc()) {  
+              echo "Title: ".$row['title']." (".$row['year'].")"."<br>Producer: ".$row['company']."<br>MPAA Rating: ".$row['rating']."<br>";
+              break;
+            }
+          } else {
+            echo "
+            <h4>0 results</h4>";
+          }
+          
+          // Director 
+          $condition = 'M.id='.$_GET['id']." AND MD.mid=M.id AND D.id=MD.did;";
+          $query = "SELECT * FROM (Movie M, MovieDirector MD, Director D) WHERE ".$condition;
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          if ($rs->num_rows > 0) {
+            while ($row = $rs->fetch_assoc()) {  
+              echo "Director: ".$row['first']." ".$row['last']." (".$row["dob"].")";
+              break;
+            }
+          } else {
+            echo "Director: INFO NOT AVAILABLE";
+          }
+
+          // Genre
+          $condition = 'M.id='.$_GET['id']." AND G.mid=M.id;";
+          $query = "SELECT DISTINCT genre FROM (Movie M, MovieGenre G) WHERE ".$condition;
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          if ($rs->num_rows > 0) {
+            echo "<br>Genre: ";
+            while ($row = $rs->fetch_assoc()) {  
+              echo $row['genre']." ";
+            }
+          } else {
+            echo "Genre: INFO NOT AVAILABLE";
+          }
+          
+
+          // Actors in this movie
+          $condition = 'M.id='.$_GET['id']." AND MA.mid=M.id AND MA.aid=A.id;";
+          $query = "SELECT * FROM (MovieActor MA, Movie M, Actor A) WHERE ".$condition;
+          echo "<br>";
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          if ($rs->num_rows > 0) {
+            echo "
+            <br>
+            <h3>Actors in this Movie:</h3>
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Role</th>
+              </tr>";
+            while ($row = $rs->fetch_assoc()) {  
+              echo "<tr><td>"."<a href='Actor.php?id=".$row['aid']."'>".$row['first']." ".$row['last']."</a></td><td>".$row['role']."</td><tr>";
+            }
+            echo "</table>";
+          } else {
+            echo "
+            <br>
+            <h3>Actors in this Movie:</h3>
+            <h4>0 results</h4>";
+          }
+
+          // User Review
+          $condition = 'mid='.$_GET['id'].";";
+          $query = "SELECT AVG(rating), COUNT(comment) FROM Review WHERE ".$condition;
+          echo "<br>";
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          
+          if ($rs->num_rows > 0) {
+            echo "
+            <br>
+            <h3>User Review:</h3>";
+            while ($row = $rs->fetch_assoc()) {  
+              echo "Average Rating for this Movie is ";
+              echo isset($row['AVG(rating)']) ? $row['AVG(rating)'] : 0;
+              echo "/5 based on ".$row["COUNT(comment)"]." people's reviews<br>";
+              echo "<a href='Review.php?id=".$_GET['id']."'>Leave a review!</a><br>";
+            }
+          } else {
+            echo "
+            <h4>0 results</h4>";
+          }
+
+          // Comment details
+          $condition = 'mid='.$_GET['id'].";";
+          $query = "SELECT * FROM Review WHERE ".$condition;
+          echo "<br>";
+          $rs = $db->query($query);
+          if (!$rs) {
+              $errmsg = $db->error; 
+              print "Query unsuccessful: $errmsg <br>"; 
+              exit(1); 
+          }
+          
+          if ($rs->num_rows > 0) {
+            echo "
+            <br>
+            <h3>Comment details:</h3>";
+            while ($row = $rs->fetch_assoc()) {  
+              echo $row['name']." rates this movie with score ".$row['rating']." and left a review at ".$row['time']."<br>";
+              echo "Comment: <br>";
+              echo isset($row['comment']) ? $row['comment'] : "";
+              echo "<br><br>";
+            }
+          } else {
+            echo "
+            <br>
+            <h3>Comment details:</h3>
+            <h4>0 results</h4>";
+          }
+        }
+      $db->close();
+      ?>
+
+    </section>
+</body>
+</html>

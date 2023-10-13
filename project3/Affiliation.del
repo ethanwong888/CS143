@@ -1,0 +1,778 @@
+"Stanford University","Stanford, CA",1
+"Niels Bohr Institute","Copenhagen",2
+"Technion - Israel Institute of Technology","Haifa",3
+"MRC Laboratory of Molecular Biology","Cambridge",4
+"International Centre for Theoretical Physics","Trieste",5
+"Imperial College","London",5
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",6
+"Weizmann Institute of Science","Rehovot",8
+"Johns Hopkins University","Baltimore, MD",9
+"Space Telescope Science Institute","Baltimore, MD",9
+"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie","Berlin-Dahlem",10
+"Berlin University","Berlin",10
+"Munich University","Munich",11
+"Goettingen University","Göttingen",12
+"California Institute of Technology (Caltech)","Pasadena, CA",14
+"Hokkaido University","Sapporo",15
+"Asahi Kasei Corporation","Tokyo",16
+"Meijo University","Nagoya",16
+"University of California","Santa Barbara, CA",18
+"University of Cambridge","Cambridge",19
+"University of Pennsylvania","Philadelphia, PA",20
+"University of Chicago","Chicago, IL",21
+"Université Catholique de Louvain","Louvain",23
+"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik","Berlin",24
+"Universit&eacute; Paris-Sud","Orsay",25
+"Unit&eacute; Mixte de Physique CNRS/THALES","Orsay",25
+"Szeged University","Szeged",29
+"University of Heidelberg","Heidelberg",30
+"P.N. Lebedev Physical Institute","Moscow",31
+"Argonne National Laboratory","Argonne, IL",33
+"Rockefeller Institute for Medical Research","New York, NY",34
+"Carnegie Institution of Washington","Long Island, New York, NY",36
+"University of Texas Southwestern Medical Center at Dallas","Dallas, TX",38
+"École Normale Supérieure","Paris",39
+"University of Zurich","Zurich",40
+"Tufts University","Medford, MA",42
+"Uppsala University","Uppsala",43
+"Institut Pasteur","Paris",44
+"Harvard University","Cambridge, MA",46
+"Harvard Business School","Boston, MA",46
+"Trinity College","Cambridge",47
+"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","New York, NY",51
+"University of Manchester","Manchester",52
+"Institut Pasteur","Paris",54
+"University of California","Los Angeles, CA",55
+"University College","London",57
+"Veterans Administration Hospital","New Orleans, LA",58
+"Stanford University School of Medicine","Stanford, CA",59
+"Princeton University","Princeton, NJ",60
+"University of Illinois","Urbana, IL",61
+"University of Cambridge","Cambridge",62
+"National Institute for Medical Research","London",64
+"London University","London",65
+"University of Southern California","Los Angeles, CA",66
+"Uppsala University","Uppsala",68
+"Bell Laboratories","Holmdel, NJ",69
+"Bell Laboratories","Holmdel, NJ",70
+"Queen's University","Kingston",71
+"University of Chicago","Chicago, IL",72
+"London University","London",73
+"Stanford University","Stanford, CA",75
+"Stanford University","Stanford, CA",76
+"University of Helsinki","Helsinki",77
+"Göteborg University","Gothenburg",78
+"Copenhagen University","Copenhagen",79
+"Technion - Israel Institute of Technology","Haifa",82
+"University of North Carolina","Chapel Hill, NC",83
+"Cold Spring Harbor Laboratory","Cold Spring Harbor, NY",85
+"LIGO/VIRGO Collaboration",\N,86
+"California Institute of Technology (Caltech)","Pasadena, CA",86
+"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre","Nedlands",87
+"University of Western Australia","Perth",87
+"The Scripps Research Institute","La Jolla, CA",88
+"The Institute for Cancer Research","Philadelphia, PA",89
+"Harvard Medical School","Boston, MA",90
+"Nordita","Copenhagen",91
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",92
+"Karolinska Institutet","Stockholm",93
+"University of Groningen","Groningen",94
+"Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine)","Buenos Aires",95
+"Max-Planck-Institut für medizinische Forschung","Heidelberg",96
+"Stockholm School of Economics","Stockholm",98
+"McMaster University","Hamilton, Ontario",99
+"University of Cambridge","Cambridge",105
+"Stanford University School of Medicine","Stanford, CA",106
+"Australian National University","Weston Creek",107
+"University of Texas Southwestern Medical Center at Dallas","Dallas, TX",108
+"The Scripps Research Institute","La Jolla, CA",108
+"Rockefeller University","New York, NY",109
+"Stanford Linear Accelerator Center","Stanford, CA",110
+"University of Cambridge","Cambridge",111
+"Pavia University","Pavia",112
+"University of Heidelberg","Heidelberg",114
+"I.G. Farbenindustrie A.G.","Heidelberg",114
+"Washington University","St. Louis, MO",115
+"California Institute of Technology (Caltech)","Pasadena, CA",116
+"University of Colorado, JILA","Boulder, CO",119
+"CERN","Geneva",120
+"Johns Hopkins University School of Medicine","Baltimore, MD",123
+"Bristol University","Bristol",124
+"MRC Laboratory of Molecular Biology","Cambridge",125
+"University of Chicago, Ben May Laboratory for Cancer Research","Chicago, IL",126
+"Bureau International des Poids et Mesures (International Bureau of Weights and Measures)","Sèvres",127
+"Edinburgh University","Edinburgh",129
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",130
+"Du Pont","Wilmington, DE",131
+"Standard Telecommunication Laboratories","Harlow",132
+"Chinese University of Hong Kong","Hong Kong",132
+"Rockefeller University","New York, NY",133
+"Institut Pasteur","Tunis",134
+"Sorbonne University","Paris",135
+"Institute for Advanced Study","Princeton, NJ",136
+"Utrecht University","Utrecht",137
+"National Institutes of Health","Bethesda, MD",138
+"Rockefeller University","New York, NY",139
+"Université Catholique de Louvain","Louvain",139
+"Max-Planck-Institut für Entwicklungsbiologie","Tübingen",141
+"London School of Economics and Political Science","London",142
+"Princeton University","Princeton, NJ",143
+"Collège de France","Paris",144
+"École Normale Supérieure","Paris",144
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",146
+"Bell Telephone Laboratories","New York, NY",147
+"University of California","San Diego, CA",148
+"Ghent University","Ghent",150
+"University of Massachusetts Medical School","Worcester, MA",151
+"National Institutes of Health","Bethesda, MD",153
+"Northwestern University","Evanston, IL",155
+"Aarhus University","Aarhus",155
+"Technion - Israel Institute of Technology","Haifa",156
+"Istituto Superiore di Sanità (Chief Institute of Public Health)","Rome",157
+"Princeton University","Princeton, NJ",158
+"Princeton University","Princeton, NJ",159
+"University of California","Berkeley, CA",160
+"Johns Hopkins University School of Medicine","Baltimore, MD",161
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",163
+"Harvard Medical School","Boston, MA",164
+"University of California, Kavli Institute for Theoretical Physics","Santa Barbara, CA",165
+"University of Washington","Seattle, WA",166
+"National Institute of Standards and Technology","Boulder, CO",167
+"University of Colorado","Boulder, CO",167
+"Cornell University","Ithaca, NY",168
+"Imperial College","London",171
+"Imperial College","London",172
+"Columbia University","New York, NY",175
+"University of Geneva","Geneva",176
+"University of Cambridge","Cambridge",176
+"University of California","Berkeley, CA",177
+"University of California","Los Angeles, CA",178
+"University of Waterloo","Waterloo",179
+"University of Oxford, Royal Society","Oxford",181
+"Stanford University","Stanford, CA",182
+"Washington University","St. Louis, MO",183
+"Harvard University","Cambridge, MA",184
+"Fred Hutchinson Cancer Research Center","Seattle, WA",185
+"Harvard University","Cambridge, MA",186
+"Vanderbilt University","Nashville, TN",187
+"University of Cambridge","Cambridge",188
+"University of Washington","Seattle, WA",189
+"Columbia University","New York, NY",190
+"Landwirtschaftliche Hochschule (Agricultural College)","Berlin",191
+"Norwegian University of Science and Technology (NTNU)","Trondheim",192
+"Saint Louis University","St. Louis, MO",193
+"California Institute of Technology (Caltech)","Pasadena, CA",194
+"Mayo Clinic","Rochester, MN",195
+"Arizona State University","Tempe, AZ",196
+"Federal Reserve Bank of Minneapolis","Minneapolis, MN",196
+"Rockefeller Institute for Medical Research","New York, NY",197
+"Department of Scientific and Industrial Research","London",198
+"University of Washington","Seattle, WA",199
+"University of California","Berkeley, CA",200
+"University of Lisbon","Lisbon",201
+"Neurological Institute","Lisbon",201
+"Purdue University","West Lafayette, IN",202
+"Harvard University","Cambridge, MA",206
+"Indiana University","Bloomington, IN",210
+"Arizona State University","Tempe, AZ",210
+"University of California","San Francisco, CA",211
+"Berlin University","Berlin",213
+"Marburg University","Marburg",214
+"University of California","Berkeley, CA",215
+"Max Planck Unit for the Science of Pathogens","Berlin",217
+"Rome University","Rome",218
+"Janelia Research Campus, Howard Hughes Medical Institute","Ashburn, VA",219
+"University of Colorado, JILA","Boulder, CO",220
+"Princeton University","Princeton, NJ",221
+"Columbia University","New York, NY",222
+"Institute for Advanced Study","Princeton, NJ",223
+"University of California","Berkeley, CA",226
+"Victoria University","Manchester",227
+"Trinity College","Dublin",228
+"University of Oxford","Oxford",230
+"Technical University","Munich",231
+"Fritz-Haber-Institut der Max-Planck-Gesellschaft","Berlin",232
+"Max-Planck-Institut für Biophysikalische Chemie","Göttingen",233
+"Berlin University","Berlin",234
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",235
+"University of Chicago","Chicago, IL",236
+"Princeton University","Princeton, NJ",238
+"Princeton University","Princeton, NJ",242
+"University of California","Irvine, CA",243
+"Stanford University","Stanford, CA",245
+"Max-Planck-Institut für Zellchemie","Munich",246
+"Strasbourg University","Strasbourg",247
+"University of Texas Medical School at Houston","Houston, TX",249
+"Carnegie Mellon University","Pittsburgh, PA",250
+"University of California","Santa Barbara, CA",250
+"California Institute of Technology (Caltech)","Pasadena, CA",251
+"MRC Laboratory of Molecular Biology","Cambridge",252
+"University of Cambridge","Cambridge",253
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",254
+"Université Libre de Bruxelles","Brussels",255
+"Institut Pasteur","Paris",256
+"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur","Paris",258
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",260
+"Institut du Radium","Paris",262
+"Western Reserve University","Cleveland, OH",265
+"University of Toronto","Toronto",266
+"University of California","Irvine, CA",267
+"University of Cambridge","Cambridge",268
+"MRC Laboratory of Molecular Biology","Cambridge",269
+"University of Oxford","Oxford",270
+"University of Heidelberg","Heidelberg",273
+"I.G. Farbenindustrie A.G.","Mannheim-Rheinau",273
+"Groningen University","Groningen",276
+"Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie","Berlin-Dahlem",277
+"Harvard Medical School","Boston, MA",278
+"Massachusetts General Hospital","Boston, MA",278
+"Graz University","Graz",279
+"Sorbonne University","Paris",281
+"University of Chicago","Chicago, IL",284
+"Imperial College","London",285
+"Harvard University","Cambridge, MA",286
+"University of Heidelberg","Heidelberg",287
+"University of California","Berkeley, CA",288
+"University of Southern California","Los Angeles, CA",289
+"California Institute of Technology (Caltech)","Pasadena, CA",290
+"Jackson Laboratory","Bar Harbor, ME",293
+"Stockholm University","Stockholm",294
+"Yale University, School of Medicine","New Haven, CT",295
+"Bell Laboratories","Murray Hill, NJ",296
+"University of California","Berkeley, CA",297
+"Wellcome Research Laboratories","Research Triangle Park, NC",298
+"University of Rochester","Rochester, NY",299
+"University of Chicago","Chicago, IL",300
+"University of Missouri","Columbia",301
+"London University","London",302
+"Royal Institution of Great Britain","London",303
+"Harvard University","Cambridge, MA",304
+"Harvard University","Cambridge, MA",305
+"École Supérieure de Physique et Chimie","Paris",306
+"CERN","Geneva",306
+"Basel Institute for Immunology","Basel",307
+"Rockefeller University","New York, NY",309
+"University of California","Berkeley, CA",310
+"École Polytechnique","Palaiseau",311
+"University of Michigan","Ann Arbor, MI",311
+"Utrecht University","Utrecht",312
+"IBM Zurich Research Laboratory","Rüschlikon",313
+"Munster University","Munster",314
+"Fritz-Haber-Institut der Max-Planck-Gesellschaft","Berlin",315
+"National Research Council of Canada","Ottawa",316
+"Wellcome Research Laboratories","Research Triangle Park, NC",318
+"Washington University","St. Louis, MO",319
+"Institute of Technology","Milan",322
+"University of California","Berkeley, CA",323
+"Central Research Laboratories, EMI","London",324
+"Johns Hopkins University","Baltimore, MD",327
+"Marconi Wireless Telegraph Co. Ltd.","London",328
+"Rockefeller University","New York, NY",330
+"Howard Hughes Medical Institute",\N,330
+"Swedish Gas-Accumulator Co.","Lidingö, Stockholm",332
+"Halle University","Halle",333
+"California Institute of Technology (Caltech)","Pasadena, CA",335
+"University of Wisconsin","Madison, WI",336
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",337
+"Johns Hopkins University School of Medicine","Baltimore, MD",339
+"Royal Institute of Technology","Stockholm",340
+"Cornell University","Ithaca, NY",341
+"Technische Hochschule (Institute of Technology)","Munich",342
+"University of Washington","Seattle, WA",343
+"Sheffield University","Sheffield",344
+"University of Freiburg im Breisgau","Breisgau",345
+"Stockholm University","Stockholm",346
+"German Cancer Research Center","Heidelberg",347
+"Columbia University","New York, NY",348
+"University of California School of Medicine","San Francisco, CA",349
+"City University of New York","New York, NY",351
+"Max-Planck-Institut für Biophysik","Frankfurt-on-the-Main",353
+"National Institutes of Health","Bethesda, MD",354
+"Leiden University","Leiden",355
+"IBM Zurich Research Laboratory","Rüschlikon",357
+"Munich University","Munich",358
+"Leiden University","Leiden",359
+"École Polytechnique","Paris",360
+"Sorbonne University","Paris",363
+"Polytechnic Institute","Copenhagen",364
+"Stanford University","Stanford, CA",368
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",369
+"The Medical Foundation of Buffalo","Buffalo, NY",371
+"Purdue University","West Lafayette, IN",372
+"University of California","Santa Barbara, CA",373
+"Rockefeller Institute for Medical Research","New York, NY",374
+"Carnegie Mellon University","Pittsburgh, PA",375
+"Indiana University","Bloomington, IN",377
+"University of Freiburg","Breisgau",378
+"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg","Breisgau",378
+"University of Tsukuba","Tokyo",380
+"Kyoto Imperial University","Kyoto",381
+"Columbia University","New York, NY",381
+"Nagoya University","Nagoya",382
+"Columbia University","New York, NY",384
+"University of Wisconsin","Madison, WI",385
+"Karolinska Institutet, Nobel Medical Institute","Stockholm",386
+"Lomonosov Moscow State University","Moscow",387
+"P.N. Lebedev Physical Institute","Moscow",387
+"Lomonosov Moscow State University","Moscow",388
+"P.N. Lebedev Physical Institute","Moscow",388
+"Institut Pasteur","Paris",389
+"Université Libre de Bruxelles","Brussels",390
+"University of Texas","Austin, TX",390
+"Institut du Radium","Paris",402
+"General Electric Company","Schenectady, NY",403
+"University of California","Irvine, CA",404
+"Meijo University","Nagoya",406
+"Nagoya University","Nagoya",406
+"Columbia University","New York, NY",407
+"Military Medical Academy","St. Petersburg",409
+"General Electric Company","Schenectady, NY",410
+"IBM Zurich Research Laboratory","Rüschlikon",412
+"University of Heidelberg","Heidelberg",413
+"University of California School of Medicine","San Francisco, CA",415
+"Brown University","Providence, RI",416
+"University of Cambridge","Cambridge",418
+"Texas Instruments","Dallas, TX",420
+"CERN","Geneva",421
+"Harvard Medical School","Boston, MA",422
+"Massachusetts General Hospital","Boston, MA",422
+"Howard Hughes Medical Institute",\N,422
+"Berlin University","Berlin",423
+"University of Lausanne","Lausanne",424
+"Institut Pasteur","Paris",425
+"University of Cambridge","Cambridge",426
+"Cornell University","Ithaca, NY",427
+"Liverpool University","Liverpool",428
+"University of Chicago","Chicago, IL",429
+"University of Cambridge","Cambridge",430
+"Yale University","New Haven, CT",431
+"Goettingen University","Göttingen",432
+"University of Chicago","Chicago, IL",433
+"Center for Study of Public Choice","Fairfax, VA",434
+"Parker Institute for Cancer Immunotherapy","San Francisco, CA",435
+"University of Texas MD Anderson Cancer Center","Houston, TX",435
+"Princeton University","Princeton, NJ",436
+"Columbia University","New York, NY",437
+"Yale University","New Haven, CT",438
+"Harvard University","Cambridge, MA",439
+"The Netherlands School of Economics","Rotterdam",440
+"Polarographic Institute of the Czechoslovak Academy of Science","Prague",442
+"Sorbonne University","Paris",444
+"Université de Paris, Laboratoire Immuno-Hématologie","Paris",445
+"Toulouse School of Economics (TSE)","Toulouse",446
+"Université Louis Pasteur","Strasbourg",448
+"Collège de France","Paris",448
+"University of Strasbourg","Strasbourg",450
+"University of Maine","Maine, ME",451
+"University of California","Berkeley, CA",452
+"Aarhus University","Aarhus",453
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",454
+"US Naval Research Laboratory","Washington, DC",455
+"Columbia University","New York, NY",457
+"University of Texas Southwestern Medical Center at Dallas","Dallas, TX",459
+"Howard Hughes Medical Institute",\N,459
+"Amsterdam University","Amsterdam",460
+"Copenhagen University","Copenhagen",461
+"Greifswald University","Greifswald",462
+"Virginia Commonwealth University","Richmond, VA",464
+"University of Texas","Austin, TX",465
+"University of Illinois","Urbana, IL",466
+"University of Illinois","Urbana, IL",467
+"University of California","Berkeley, CA",468
+"MRC Laboratory of Molecular Biology","Cambridge",469
+"NASA Goddard Space Flight Center","Greenbelt, MD",470
+"University of Toronto","Toronto",471
+"Atomic Energy Research Establishment","Harwell, Berkshire",472
+"University of Sussex","Brighton",473
+"The Wellcome Trust Sanger Institute","Cambridge",474
+"MRC Laboratory of Molecular Biology","Cambridge",475
+"Harvard Medical School","Boston, MA",476
+"Research Division of Infectious Diseases, Children's Medical Center","Boston, MA",476
+"Princeton University","Princeton, NJ",477
+"Rockefeller Institute for Medical Research","Princeton, NJ",479
+"Harvard University","Cambridge, MA",480
+"University of Colorado, JILA","Boulder, CO",482
+"National Institute of Standards and Technology","Boulder, CO",482
+"University of Toronto","Toronto",483
+"University College","London",484
+"Northwestern University","Evanston, IL",485
+"All Souls College","Oxford",486
+"The Wellcome Research Laboratories","Beckenham",488
+"Brigham and Women's Hospital","Boston, MA",494
+"Columbia University","New York, NY",495
+"Washington University","St. Louis, MO",496
+"Princeton University","Princeton, NJ",497
+"University of Texas Southwestern Medical Center at Dallas","Dallas, TX",498
+"University of Wisconsin","Madison, WI",500
+"University of Strasbourg","Strasbourg",503
+"Brussels University","Brussels",504
+"Harvard University","Cambridge, MA",505
+"National Institutes of Health","Bethesda, MD",506
+"Vienna University","Vienna",507
+"IBM Zurich Research Laboratory","Rüschlikon",508
+"Uppsala University","Uppsala",509
+"Rockefeller Institute for Medical Research","New York, NY",512
+"Zoologisches Institut der Universität München","Munich",513
+"Max-Planck-Institut für Kohlenforschung (Max-Planck-Institute for Carbon Research)","Mülheim/Ruhr",514
+"Rockefeller University","New York, NY",517
+"Kyoto University","Kyoto",518
+"Cornell University","Ithaca, NY",519
+"Harvard University","Cambridge, MA",520
+"LIGO/VIRGO Collaboration",\N,523
+"California Institute of Technology (Caltech)","Pasadena, CA",523
+"Max-Planck-Institut für Festkörperforschung","Stuttgart",525
+"Shimadzu Corp.","Kyoto",528
+"Harvard University","Cambridge, MA",529
+"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie","Altenberg; Grünau im Almtal",530
+"University of Manchester","Manchester",531
+"Cologne University","Cologne",532
+"Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)","Zurich",533
+"The Scripps Research Institute","La Jolla, CA",533
+"Yale University","New Haven, CT",534
+"University of Chicago","Chicago, IL",535
+"Victoria University","Manchester",536
+"University of Pennsylvania","Philadelphia, PA",537
+"Fred Hutchinson Cancer Research Center","Seattle, WA",541
+"IBM Thomas J. Watson Research Center","Yorktown Heights, NY",542
+"Fermi National Accelerator Laboratory","Batavia, IL",545
+"Brown University","Providence, RI",546
+"University of Minnesota","Minneapolis, MN",547
+"Academy of Sciences","Moscow",548
+"Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)","Zurich",549
+"Academy of Sciences","Moscow",551
+"Fred Hutchinson Cancer Research Center","Seattle, WA",553
+"California Institute of Technology (Caltech)","Pasadena, CA",554
+"California Institute of Technology (Caltech)","Pasadena, CA",555
+"University of California","Los Angeles, CA",557
+"Royal Institution of Great Britain","London",559
+"University of Cambridge","Cambridge",560
+"Sorbonne University, Institut Henri Poincaré","Paris",561
+"University of California School of Medicine","Los Angeles, CA",562
+"University of Grenoble","Grenoble",563
+"Sorbonne University","Paris",564
+"World Foundation for AIDS Research and Prevention","Paris",566
+"University of California","Berkeley, CA",569
+"Institute for Biochemical Research","Buenos Aires",570
+"Binghamton University, State University of New York","New York, NY",571
+"High Energy Accelerator Research Organization (KEK)","Tsukuba",573
+"Max-Planck-Institut für Physikalische Chemie","Göttingen",575
+"Uppsala University","Uppsala",576
+"University of California","San Diego, CA",577
+"Sorbonne University","Paris",579
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",580
+"University of Utah","Salt Lake City, UT",581
+"Howard Hughes Medical Institute",\N,581
+"National Institutes of Health","Bethesda, MD",583
+"Columbia University","New York, NY",584
+"Université de Strasbourg","Strasbourg",585
+"Harvard University","Cambridge, MA",585
+"Stanford University","Stanford, CA",586
+"National Institute of Environmental Health Sciences","Research Triangle Park, NC",588
+"University of Cambridge","Cambridge",589
+"University of Tokyo","Tokyo",592
+"École Nationale Supérieur des Mines de Paris","Paris",593
+"London University","London",595
+"Edinburgh University","Edinburgh",596
+"California Institute of Technology (Caltech)","Pasadena, CA",597
+"MRC Laboratory of Molecular Biology","Cambridge",598
+"Berlin University","Berlin",599
+"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","New York, NY",600
+"Frankfurt-on-the-Main University","Frankfurt-on-the-Main",601
+"Norwegian University of Science and Technology (NTNU)","Trondheim",602
+"University of California","Berkeley, CA",604
+"Digital Pathways, Inc.","Mountain View, CA",605
+"University of Chicago","Chicago, IL",607
+"University of Alberta","Edmonton",608
+"Harvard University","Cambridge, MA",609
+"Stanford University School of Medicine","Stanford, CA",610
+"Brandeis University","Waltham, MA",611
+"Howard Hughes Medical Institute",\N,611
+"University of Texas Southwestern Medical Center at Dallas","Dallas, TX",612
+"University of British Columbia","Vancouver",613
+"Rockefeller University","New York, NY",614
+"University of Geneva","Geneva",615
+"University of Chicago","Chicago, IL",619
+"California Institute of Technology (Caltech)","Pasadena, CA",624
+"Long Term Capital Management","Greenwich, CT",625
+"Columbia University","New York, NY",634
+"Harvard University","Cambridge, MA",635
+"P.N. Lebedev Physical Institute","Moscow",636
+"Copenhagen University","Copenhagen",637
+"Basel Institute for Immunology","Basel",638
+"Finsen Medical Light Institute","Copenhagen",639
+"University of Oxford","Oxford",640
+"Institute for Chemical Physics of the Academy of Sciences of the USSR","Moscow",641
+"Lomonosov Moscow State University","Moscow",641
+"Harvard University","Cambridge, MA",643
+"Birmingham University","Birmingham",644
+"University of Oslo","Oslo",646
+"University of California","Berkeley, CA",651
+"Harvard University","Cambridge, MA",652
+"University of North Carolina","Chapel Hill, NC",653
+"Marine Biological Laboratory (MBL)","Woods Hole, MA",656
+"Boston University Medical School","Massachusetts, MA",656
+"Kiel University","Kiel",658
+"Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie","Berlin-Dahlem",659
+"Graz University","Graz",660
+"Kiel University","Kiel",661
+"Carnegie Institute of Technology","Pittsburgh, PA",662
+"Goettingen University","Göttingen",663
+"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie","Berlin-Dahlem",664
+"University of California","Berkeley, CA",665
+"London University","London",666
+"Victoria University","Manchester",669
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",672
+"University of Cambridge","Cambridge",673
+"Stanford University","Stanford, CA",674
+"University of Illinois","Urbana, IL",675
+"University of California","Los Angeles, CA",676
+"Goettingen University","Göttingen",677
+"Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy)","Frankfurt-on-the-Main",677
+"Rockefeller University","New York, NY",678
+"Max-Planck-Institut für Chemie","Mainz",681
+"Stanford University","Stanford, CA",682
+"University of Zurich","Zurich",683
+"Princeton University","Princeton, NJ",684
+"NYU Stern School of Business","New York, NY",685
+"Howard Hughes Medical Institute","Durham, NC",686
+"Duke University School of Medicine","Durham, NC",686
+"Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.)","Basel",687
+"Stanford University","Stanford, CA",688
+"Toulouse University","Toulouse",689
+"P.N. Lebedev Physical Institute","Moscow",690
+"Harvard University","Cambridge, MA",692
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",694
+"Johns Hopkins University School of Medicine","Baltimore, MD",695
+"St. Jude Children's Research Hospital","Memphis, TN",696
+"Berlin University","Berlin",697
+"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik","Berlin",697
+"Forschungszentrum J&uuml;lich","Jülich",698
+"University of Edinburgh","Edinburgh",700
+"University College","London",701
+"Glynn Research Laboratories","Bodmin",702
+"Rockefeller University","New York, NY",703
+"Mayo Clinic","Rochester, MN",705
+"Bell Telephone Laboratories","Murray Hill, NJ",706
+"Kiel University","Kiel",707
+"Massachusetts Institute of Technology (MIT), Center for Cancer Research","Cambridge, MA",708
+"École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry)","Paris",709
+"Collège de France","Paris",710
+"Amsterdam University","Amsterdam",711
+"Columbia University","New York, NY",712
+"Academy of Sciences","Moscow",714
+"University of Oslo","Oslo",716
+"Karolinska Institutet","Stockholm",717
+"LIGO/VIRGO Collaboration",\N,718
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",718
+"Harvard University","Cambridge, MA",719
+"Rockefeller University","New York, NY",720
+"University of California","Berkeley, CA",722
+"Howard Hughes Medical Institute",\N,722
+"University of Pennsylvania","Philadelphia, PA",723
+"Max Planck Institute for Extraterrestrial Physics","Garching",724
+"University of California","Berkeley, CA",724
+"Rheinische Friedrich-Wilhelms-Universität","Bonn",725
+"Imperial Cancer Research Fund Laboratory","London",726
+"Associated Universities Inc.","Washington, DC",728
+"Columbia University","New York, NY",729
+"Rice University","Houston, TX",730
+"Stanford University","Stanford, CA",731
+"University of Delaware",\N,732
+"University of Chicago","Chicago, IL",733
+"MRC Laboratory of Molecular Biology","Cambridge",734
+"New England Biolabs","Beverly, MA",735
+"Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung","Heidelberg",736
+"University of Heidelberg","Heidelberg",736
+"Rowett Research Institute","Bucksburn (Scotland)",737
+"California Institute of Technology (Caltech)","Pasadena, CA",738
+"Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)","Zurich",739
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",740
+"University of Cambridge","Cambridge",741
+"Munich University","Munich",742
+"Goettingen University","Göttingen",743
+"Institute of Cell Biology of the C.N.R.","Rome",745
+"Cornell University","Ithaca, NY",746
+"California Institute of Technology (Caltech)","Pasadena, CA",747
+"Stanford University","Stanford, CA",748
+"Stanford University","Stanford, CA",749
+"Harvard University","Cambridge, MA",750
+"Vienna University","Vienna",751
+"Harvard University","Cambridge, MA",752
+"Cornell University","Ithaca, NY",753
+"University of Chicago","Chicago, IL",755
+"Rice University","Houston, TX",756
+"New York University","New York, NY",757
+"SUNY Health Science Center","Brooklyn, NY",758
+"University of Cambridge","Cambridge",759
+"California Institute of Technology (Caltech)","Pasadena, CA",760
+"Stanford University","Stanford, CA",761
+"Max-Planck-Institut für Biochemie","Martinsried",762
+"University of Jerusalem, Center for RationalityHebrew","Jerusalem",763
+"Howard Hughes Medical Institute",\N,764
+"Duke University Medical Center","Durham, NC",764
+"Yale University","New Haven, CT",765
+"Institute for Infectious Diseases","Berlin",766
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",767
+"Columbia University","New York, NY",768
+"University of Chicago","Chicago, IL",769
+"University of Pennsylvania","Philadelphia, PA",770
+"University of Chicago","Chicago, IL",771
+"Cornell University","Ithaca, NY",772
+"Bell Laboratories","Holmdel, NJ",773
+"Rockefeller University","New York, NY",774
+"Howard Hughes Medical Institute",\N,774
+"University of Oxford","Oxford",775
+"University of Chicago","Chicago, IL",776
+"Stanford University","Stanford, CA",777
+"The Salk Institute","San Diego, CA",778
+"University of Oxford","Oxford",780
+"California Institute of Technology (Caltech)","Pasadena, CA",781
+"University of California","San Diego, CA",782
+"Howard Hughes Medical Institute",\N,782
+"University of Zurich, Institute of Experimental Immunology","Zurich",783
+"Institute of Physical Chemistry","Cambridge",785
+"University of Chicago","Chicago, IL",786
+"University College","Liverpool",787
+"Veterans Administration Hospital","Bronx, NY",788
+"Harvard University","Cambridge, MA",789
+"Technical University","Munich",791
+"California Institute of Technology (Caltech)","Pasadena, CA",791
+"California Institute of Technology (Caltech)","Pasadena, CA",792
+"Princeton University","Princeton, NJ",794
+"Nagoya University","Nagoya",795
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",797
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",800
+"Madrid University","Madrid",801
+"Kitasato University","Tokyo",802
+"Lawrence Berkeley National Laboratory","Berkeley, CA",804
+"University of California","Berkeley, CA",804
+"Rutgers University","New Brunswick, NJ",808
+"Collège de France","Paris",809
+"École Normale Supérieure","Paris",809
+"New York University, College of Medicine","New York, NY",810
+"Harvard University, Lyman Laboratory","Cambridge, MA",811
+"Kyoto University","Kyoto",813
+"Gladstone Institutes","San Francisco, CA",813
+"University of California","Santa Barbara, CA",816
+"Yale University","New Haven, CT",817
+"Harvard University","Cambridge, MA",819
+"CERN","Geneva",820
+"Tokyo University of Education","Tokyo",821
+"London University","London",823
+"Princeton University","Princeton, NJ",824
+"University College","London",826
+"Calcutta University","Calcutta",827
+"University of Oxford","Oxford",828
+"University of Oxford","Oxford",829
+"Walter and Eliza Hall Institute for Medical Research","Melbourne",830
+"University of Cambridge","Cambridge",831
+"MRC Laboratory of Molecular Biology","Cambridge",832
+"University of Sussex","Brighton",833
+"National Institute for Medical Research","London",834
+"University of Oxford","Oxford",835
+"Northwestern University","Evanston, IL",836
+"London University, King's College Hospital Medical School","London",837
+"Gurdon Institute","Cambridge",838
+"Australian National University","Canberra",839
+"Cardiff University","Cardiff",840
+"University of Cambridge","Cambridge",841
+"Imperial Cancer Research Fund","London",843
+"University of Oxford","Oxford",844
+"Francis Crick Institute","London",844
+"University of Nottingham, School of Physics and Astronomy","Nottingham",845
+"University of Oxford","Oxford",846
+"University College","London",847
+"Rockefeller University","New York, NY",848
+"University of California School of Medicine","San Francisco, CA",849
+"Vanderbilt University School of Medicine","Nashville, TN",850
+"Max Planck Institute for Biophysical Chemistry","Göttingen",851
+"German Cancer Research Center","Heidelberg",851
+"Stanford University","Stanford, CA",852
+"Harvard University","Cambridge, MA",853
+"University of Chicago","Chicago, IL",854
+"Karolinska Institutet","Stockholm",856
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",857
+"Stockholm University","Stockholm",858
+"The Molecular Sciences Institute","Berkeley, CA",860
+"Basel University","Basel",862
+"University of Tokyo","Kashiwa",863
+"Kyoto University","Kyoto",864
+"Uppsala University","Uppsala",867
+"Berne University","Bern",868
+"Max-Planck-Institut für Quantenoptik","Garching",870
+"Ludwig-Maximilians- Universität","Munich",870
+"Harvard University","Cambridge, MA",872
+"University of Chicago","Chicago, IL",873
+"Yale University","New Haven, CT",874
+"Howard Hughes Medical Institute",\N,874
+"University of Maryland, Department of Economics and School of Public Policy","College Park, MD",875
+"Stanford University","Stanford, CA",876
+"Howard Hughes Medical Institute",\N,876
+"California Institute of Technology (Caltech)","Pasadena, CA",877
+"Research Division of Infectious Diseases, Children's Medical Center","Boston, MA",878
+"New York University","New York, NY",879
+"University of Colorado","Boulder, CO",881
+"Imperial Cancer Research Fund","London",882
+"Yale University","New Haven, CT",883
+"Francis Crick Institute","Hertfordshire",885
+"Clare Hall Laboratory","Hertfordshire",885
+"Harvard Medical School","Boston, MA",888
+"Kyoto Sangyo University","Kyoto",889
+"Yukawa Institute for Theoretical Physics (YITP), Kyoto University","Kyoto",889
+"University of Oslo","Oslo",890
+"Columbia University","New York, NY",891
+"China Academy of Traditional Chinese Medicine","Beijing",892
+"Karolinska Institutet","Stockholm",893
+"Princeton University","Princeton, NJ",898
+"MRC Laboratory of Molecular Biology","Cambridge",899
+"George Mason University","Fairfax, VA",901
+"Innsbruck University","Innsbruck",903
+"Nancy University","Nancy",904
+"Cornell University","Ithaca, NY",905
+"P.N. Lebedev Physical Institute","Moscow",906
+"Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology)","Zurich",907
+"Harvard University, Biological Laboratories","Cambridge, MA",908
+"Bell Telephone Laboratories","Murray Hill, NJ",909
+"University of Zurich","Zurich",910
+"University of California","Santa Barbara, CA",911
+"University of Heidelberg","Heidelberg",912
+"Max-Planck-Institut für medizinische Forschung","Heidelberg",912
+"Berlin University","Berlin",913
+"Harvard University","Cambridge, MA",915
+"Rockefeller Institute for Medical Research","Princeton, NJ",916
+"Biozentrum der Universität","Basel",917
+"Mainz University","Mainz",918
+"Leipzig University","Leipzig",919
+"Munich University","Munich",920
+"Leipzig University","Leipzig",921
+"Würzburg University","Würzburg",922
+"University of California","Los Angeles, CA",923
+"Bell Laboratories","Murray Hill, NJ",924
+"Leiden University","Leiden",925
+"California Institute of Technology (Caltech)","Pasadena, CA",926
+"Semiconductor Laboratory of Beckman Instruments, Inc.","Mountain View, CA",927
+"University College","London",928
+"Drew University","Madison, NJ",930
+"Yale University","New Haven, CT",931
+"National Institute of Standards and Technology","Gaithersburg, MD",932
+"Stanford University","Stanford, CA",933
+"University of California","Berkeley, CA",934
+"Stanford University","Stanford, CA",935
+"Harvard Medical School","Boston, MA",937
+"Howard Hughes Medical Institute","Chevy Chase, MD",937
+"Dana-Farber Cancer Institute","Boston, MA",937
+"Brigham and Women's Hospital","Boston, MA",937
+"Rockefeller University","New York, NY",939
+"Harvard University","Cambridge, MA",941
+"Harvard University","Cambridge, MA",942
+"Peter Brent Brigham Hospital","Boston, MA",942
+"Columbia University","New York, NY",943
+"Stanford University","Stanford, CA",944
+"Massachusetts Institute of Technology (MIT)","Cambridge, MA",950
+"University of Bonn","Bonn",951
+"Princeton University","Princeton, NJ",952
+"Enrico Fermi Institute, University of Chicago","Chicago, IL",958
+"Tokyo Institute of Technology","Tokyo",959
+"University of California","Berkeley, CA",960
+"Institut Français du Pétrole","Rueil-Malmaison",961
+"A.F. Ioffe Physico-Technical Institute","St. Petersburg",962
